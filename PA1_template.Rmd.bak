@@ -4,7 +4,7 @@ output:
   html_document:
     keep_md: true
 ---
-
+  
 
 ## Loading and preprocessing the data
 
@@ -153,7 +153,7 @@ From this we can see there has been an increase in teh mean and median number of
 ## Are there differences in activity patterns between weekdays and weekends?
 For this part of the evaluation i am going to use the cleansed dataset
 
-Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
+Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day. 
 ```{r}
 WeekDay <- FinalMerge 
 WeekDay$DayName <- NA 
@@ -173,8 +173,6 @@ xyplot(TimePlot$meansteps ~ TimePlot$interval | TimePlot$weekdays,
        xlab = "Interval", ylab = "Mean Number of steps")
 ```
 =======
-=======
->>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
 
 
 ## What is mean total number of steps taken per day?
@@ -190,5 +188,4 @@ xyplot(TimePlot$meansteps ~ TimePlot$interval | TimePlot$weekdays,
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
-<<<<<<< HEAD
 >>>>>>> RepData_PeerAssessment1/master

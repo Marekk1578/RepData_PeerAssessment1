@@ -3,6 +3,7 @@
 
 ## Loading and preprocessing the data
 
+<<<<<<< HEAD
 Download the data we and insert it into a variable
 
 ```r
@@ -225,3 +226,23 @@ xyplot(TimePlot$meansteps ~ TimePlot$interval | TimePlot$weekdays,
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-18-1.png) 
+=======
+=======
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+<<<<<<< HEAD
+>>>>>>> RepData_PeerAssessment1/master
