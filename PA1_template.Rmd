@@ -153,7 +153,7 @@ From this we can see there has been an increase in teh mean and median number of
 ## Are there differences in activity patterns between weekdays and weekends?
 For this part of the evaluation i am going to use the cleansed dataset
 
-Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
+Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day. 
 ```{r}
 WeekDay <- FinalMerge 
 WeekDay$DayName <- NA 
